@@ -37,5 +37,5 @@ for (let i = 0; i < movie_list1.length; i++) {
 // iterator
 
 movie_list1.forEach(movie => console.log(">>" + movie));
-let new_movie_list = movie_list2.filter(movie => movie.slice(0,1) != "2");
+let new_movie_list = movie_list2.filter(movie => movie.slice(0,100) != "2");
 console.log(new_movie_list);
